@@ -27,7 +27,7 @@ public class StockWatcher implements EntryPoint {
   private FlexTable stocksFlexTable = new FlexTable();
   private HorizontalPanel addPanel = new HorizontalPanel();
   private TextBox newSymbolTextBox = new TextBox();
-  private Button addStockButton = new Button("Add");
+  private Button addStockButton = new Button("Добавить");
   private Label lastUpdatedLabel = new Label();
   private ArrayList<String> stocks = new ArrayList<String>();
   private static final int REFRESH_INTERVAL = 1000; // ms
@@ -36,11 +36,12 @@ public class StockWatcher implements EntryPoint {
    * Entry point method.
    */
   public void onModuleLoad() {
-    // Create table for stock data.
-    stocksFlexTable.setText(0, 0, "Symbol");
-    stocksFlexTable.setText(0, 1, "Price");
+    // создаём таблицу и даём ей стили
+    stocksFlexTable.setText(0, 0, "Вы ввели");
+    stocksFlexTable.setText(0, 1, "Стоимость");
     stocksFlexTable.setText(0, 2, "Change");
-    stocksFlexTable.setText(0, 3, "Remove");
+    stocksFlexTable.setText(0, 3, "Что-то");
+    stocksFlexTable.setText(0, 4, "Удалить");
     stocksFlexTable.getRowFormatter().addStyleName(0, "watchListHeader");
     stocksFlexTable.addStyleName("watchList");
     stocksFlexTable.setCellPadding(6);
@@ -48,27 +49,23 @@ public class StockWatcher implements EntryPoint {
     stocksFlexTable.getCellFormatter().addStyleName(0, 2, "watchListNumericColumn");
     stocksFlexTable.getCellFormatter().addStyleName(0, 3, "watchListRemoveColumn");
 
-    // Assemble the Add Stock panel
-    addPanel.add(newSymbolTextBox);
-    addPanel.add(addStockButton);
     addPanel.addStyleName("addPanel");
-
-    // Assemble Add Stock panel.
+    // добавляем на панель ввод и кнопку
     addPanel.add(newSymbolTextBox);
     addPanel.add(addStockButton);
 
-    // Assemble Main panel.
+    //тоже надо
     mainPanel.add(stocksFlexTable);
     mainPanel.add(addPanel);
     mainPanel.add(lastUpdatedLabel);
 
-    // Associate the Main panel with the HTML host page.
+    // и последнее что надо
     RootPanel.get("stockList").add(mainPanel);
 
-    // Move cursor focus to the input box.
+    // курсор в вводе по дефолту
     newSymbolTextBox.setFocus(true);
 
-    // Setup timer to refresh list automatically.
+    // автообновление
     Timer refreshTimer = new Timer() {
       @Override
       public void run() {
@@ -98,10 +95,10 @@ public class StockWatcher implements EntryPoint {
    * Add stock to FlexTable. Executed when the user clicks the addStockButton or
    * presses enter in the newSymbolTextBox.
    */
+  //Заполняем таблицу
   private void refreshWatchList() {
       final double MAX_PRICE = 1000.0; // $100.00
-      final double MAX_PRICE_CHANGE = 0.2; // +/- 2%
-
+      final double MAX_PRICE_CHANGE = 2; // +/- 2%
       StockPrice[] prices = new StockPrice[stocks.size()];
       for (int i = 0; i < stocks.size(); i++) {
           double price = Random.nextDouble() * MAX_PRICE;
@@ -113,6 +110,7 @@ public class StockWatcher implements EntryPoint {
 
       updateTable(prices);
   }
+  //обновляем данные
   private void updateTable(StockPrice[] prices) {
     for (int i = 0; i < prices.length; i++) {
       updateTable(prices[i]);
@@ -123,13 +121,12 @@ public class StockWatcher implements EntryPoint {
     if (!stocks.contains(price.getSymbol())) {
       return;
     }
-
     int row = stocks.indexOf(price.getSymbol()) + 1;
 
     // Format the data in the Price and Change fields.
     String priceText = NumberFormat.getFormat("#,##0.00").format(
             price.getPrice());
-    NumberFormat changeFormat = NumberFormat.getFormat("+#,##0.00;-#,##0.00");
+    NumberFormat changeFormat = NumberFormat.getFormat("+#,##0.0;-#,##0.0");
     String changeText = changeFormat.format(price.getChange());
     String changePercentText = changeFormat.format(price.getChangePercent());
 
@@ -146,7 +143,6 @@ public class StockWatcher implements EntryPoint {
     else if (price.getChangePercent() > 0.1f) {
       changeStyleName = "positiveChange";
     }
-
     changeWidget.setStyleName(changeStyleName);}
   private void addStock() {
     final String symbol = newSymbolTextBox.getText().toUpperCase().trim();
@@ -165,14 +161,23 @@ public class StockWatcher implements EntryPoint {
     // Add a button to remove a stock from the table.
     Button removeStockButton = new Button("REM");
     removeStockButton.addStyleDependentName("remove");
+    Button removeStockButton1 = new Button("Кекнуть");
+    removeStockButton.addStyleDependentName("remove");
     removeStockButton.addClickHandler(new ClickHandler() {
       public void onClick(ClickEvent event) {
         int removedIndex = stocks.indexOf(symbol);
         stocks.remove(removedIndex);
         stocksFlexTable.removeRow(removedIndex + 1);
+        Window.alert("Удалено");
       }
     });
-    stocksFlexTable.setWidget(row, 3, removeStockButton);
+    removeStockButton1.addClickHandler(new ClickHandler() {
+      public void onClick(ClickEvent event) {
+        Window.alert("KEEEEEK");
+      }
+    });
+    stocksFlexTable.setWidget(row, 4, removeStockButton);
+    stocksFlexTable.setWidget(row, 3, removeStockButton1);
 
     // Get the stock price.
     refreshWatchList();
