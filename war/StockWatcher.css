@@ -23,6 +23,13 @@ h1 {
 .dialogVPanel {
   margin: 5px;
 }
+.negativeChange {
+  color: red;
+}
+
+.errorMessage {
+  color: red;
+}
 
 .serverResponseLabelError {
   color: red;
@@ -74,7 +81,7 @@ body {
 }
 
 .positiveChange {
-  color: green;
+  color: #8fb800;
 }
 
 .negativeChange {

@@ -1,5 +1,4 @@
 package com.google.gwt.sample.stockwatcher.client;
-
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.user.client.Random;
 import com.google.gwt.event.dom.client.ClickEvent;
@@ -19,8 +18,11 @@ import java.util.ArrayList;
 import com.google.gwt.user.client.Timer;
 import com.google.gwt.i18n.client.DateTimeFormat;
 import java.util.Date;
+import com.google.gwt.core.client.GWT;
+import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.i18n.client.NumberFormat;
-
+import java.io.IOException;
+import java.io.*;
 public class StockWatcher implements EntryPoint {
 
   private VerticalPanel mainPanel = new VerticalPanel();
@@ -31,7 +33,8 @@ public class StockWatcher implements EntryPoint {
   private Label lastUpdatedLabel = new Label();
   private ArrayList<String> stocks = new ArrayList<String>();
   private static final int REFRESH_INTERVAL = 1000; // ms
-
+  private StockPriceServiceAsync stockPriceSvc = GWT.create(StockPriceService.class);
+  private Label errorMsgLabel = new Label();
   /**
    * Entry point method.
    */
@@ -44,17 +47,21 @@ public class StockWatcher implements EntryPoint {
     stocksFlexTable.setText(0, 4, "Удалить");
     stocksFlexTable.getRowFormatter().addStyleName(0, "watchListHeader");
     stocksFlexTable.addStyleName("watchList");
-    stocksFlexTable.setCellPadding(6);
+    stocksFlexTable.setCellPadding(12);
     stocksFlexTable.getCellFormatter().addStyleName(0, 1, "watchListNumericColumn");
     stocksFlexTable.getCellFormatter().addStyleName(0, 2, "watchListNumericColumn");
     stocksFlexTable.getCellFormatter().addStyleName(0, 3, "watchListRemoveColumn");
 
-    addPanel.addStyleName("addPanel");
-    // добавляем на панель ввод и кнопку
+// Assemble Add Stock panel.
     addPanel.add(newSymbolTextBox);
     addPanel.add(addStockButton);
+    addPanel.addStyleName("addPanel");
 
-    //тоже надо
+// Assemble Main panel.
+    errorMsgLabel.setStyleName("errorMessage");
+    errorMsgLabel.setVisible(false);
+
+    mainPanel.add(errorMsgLabel);
     mainPanel.add(stocksFlexTable);
     mainPanel.add(addPanel);
     mainPanel.add(lastUpdatedLabel);
@@ -90,31 +97,56 @@ public class StockWatcher implements EntryPoint {
       }
     });
   }
-
   /**
    * Add stock to FlexTable. Executed when the user clicks the addStockButton or
    * presses enter in the newSymbolTextBox.
    */
-  //Заполняем таблицу
+  //Заполняем таблицуZ
   private void refreshWatchList() {
-      final double MAX_PRICE = 1000.0; // $100.00
-      final double MAX_PRICE_CHANGE = 2; // +/- 2%
-      StockPrice[] prices = new StockPrice[stocks.size()];
-      for (int i = 0; i < stocks.size(); i++) {
-          double price = Random.nextDouble() * MAX_PRICE;
-          double change = price * MAX_PRICE_CHANGE
-                  * (Random.nextDouble() * 2.0 - 1.0);
+    final double MAX_PRICE = 100.0; // $100.00
+    final double MAX_PRICE_CHANGE = 0.02; // +/- 2%
+    StockPrice[] prices = new StockPrice[stocks.size()];
+    for (int i = 0; i < stocks.size(); i++) {
+      double price = Random.nextDouble() * MAX_PRICE;
+      double change = price * MAX_PRICE_CHANGE
+              * (Random.nextDouble() * 2.0 - 1.0);
 
-          prices[i] = new StockPrice(stocks.get(i), price, change);
+      prices[i] = new StockPrice(stocks.get(i), price, change);
+    }
+    updateTable(prices);
+    // Set up the callback object.
+    AsyncCallback<StockPrice[]> callback = new AsyncCallback<StockPrice[]>() {
+      public void onFailure(Throwable caught) {
+        // If the stock code is in the list of delisted codes, display an error message.
+        String details = caught.getMessage();
+        if (caught instanceof DelistedException) {
+          details = "Company '" + ((DelistedException) caught).getSymbol() + "' was delisted";
+        }
+
+        errorMsgLabel.setText("Error: " + details);
+        errorMsgLabel.setVisible(true);
       }
 
-      updateTable(prices);
+      public void onSuccess(StockPrice[] result) {
+        updateTable(result);
+      }
+    };
+
+    // Make the call to the stock price service.
+    stockPriceSvc.getPrices(stocks.toArray(new String[0]), callback);
   }
   //обновляем данные
   private void updateTable(StockPrice[] prices) {
-    for (int i = 0; i < prices.length; i++) {
+    for (int i=0; i < prices.length; i++) {
       updateTable(prices[i]);
     }
+
+    // Display timestamp showing last refresh.
+    lastUpdatedLabel.setText("Last update : " +
+            DateTimeFormat.getMediumDateTimeFormat().format(new Date()));
+
+    // Clear any errors.
+    errorMsgLabel.setVisible(false);
   }
   private void updateTable(StockPrice price) {
     // Make sure the stock is still in the stock table.
