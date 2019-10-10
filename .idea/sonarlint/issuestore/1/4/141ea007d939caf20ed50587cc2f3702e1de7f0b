@@ -1,0 +1,5 @@
+
+£%squid:RedundantThrowsDeclarationCheck"mRemove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.(¿Ê÷¢ýÿÿÿÿ
+dsquid:S5361-"HReplace this call to "replaceAll()" by a call to the "replace()" method.(¨ïª€úÿÿÿÿ
+dsquid:S5361-"HReplace this call to "replaceAll()" by a call to the "replace()" method.(¨ïª€úÿÿÿÿ
+dsquid:S5361-"HReplace this call to "replaceAll()" by a call to the "replace()" method.(¨ïª€úÿÿÿÿ

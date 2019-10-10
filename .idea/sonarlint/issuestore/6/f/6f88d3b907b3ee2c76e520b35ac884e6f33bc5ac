@@ -1,0 +1,9 @@
+
+Gsquid:S1604Æ"(Make this anonymous inner class a lambda(ô¨™˜8¢òà‚Û-
+Gsquid:S1604Î"(Make this anonymous inner class a lambda(óÂ‰8¢òà‚Û-
+usquid:S11923"WDefine a constant instead of duplicating this literal "watchListNumericColumn" 4 times.(“Œíœ8ÒÚ‚Û-
+Fsquid:S1604U"(Make this anonymous inner class a lambda(ÙêšÛ8ÒÚ‚Û-
+Ksquid:S1604\"(Make this anonymous inner class a lambda(Ëá†üúÿÿÿÿ8ÒÚ‚Û-
+`squid:UselessImportCheck"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8íÇ“‡Û-
+osquid:CallToDeprecatedMethod’"?Remove this use of "getMediumDateTimeFormat"; it is deprecated.(¼Œï´8íÇ“‡Û-
+wsquid:S2293""YReplace the type specification in this constructor call with the diamond operator ("<>").(ÎäŞÙ8ÒÚ‚Û-
