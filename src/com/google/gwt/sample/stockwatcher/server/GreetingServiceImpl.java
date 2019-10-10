@@ -4,6 +4,7 @@ import com.google.gwt.sample.stockwatcher.client.GreetingService;
 import com.google.gwt.sample.stockwatcher.shared.FieldVerifier;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 
+
 /**
  * The server-side implementation of the RPC service.
  */

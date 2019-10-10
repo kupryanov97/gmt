@@ -107,6 +107,8 @@ public class StockWatcher implements EntryPoint {
     if (stockPriceSvc == null) {
       stockPriceSvc = GWT.create(StockPriceService.class);
     }
+
+    // Set up the callback object.
     AsyncCallback<StockPrice[]> callback = new AsyncCallback<StockPrice[]>() {
       public void onFailure(Throwable caught) {
         // If the stock code is in the list of delisted codes, display an error message.
@@ -125,7 +127,7 @@ public class StockWatcher implements EntryPoint {
     };
 
     // Make the call to the stock price service.
-    //stockPriceSvc.getPrices(stocks.toArray(new String[0]), callback);
+    stockPriceSvc.getPrices(stocks.toArray(new String[0]), callback);
   }
   //обновляем данные
   private void updateTable(StockPrice[] prices) {

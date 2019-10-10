@@ -2,26 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1fde906-1f4d-4962-b3ea-1c9b7231e0ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB556DE0F" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB556EEAD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB5707474" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB5753BAD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB58AA47A" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB59AEA3F" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB59AF422" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB5B7C275" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/server/JsonStockData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB5C1A5BE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB5C1B54A" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB5C9210D" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB5D1081E" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB5D1F027" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB5D4ABE6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB5DDFC97" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB5DE4657" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/client/StockPriceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/client/StockPriceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/client/StockPriceServiceAsync.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/client/StockPriceServiceAsync.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/client/StockPrices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/client/StockPrice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/client/StockWatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/client/StockWatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/server/GreetingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/server/GreetingServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/server/StockPriceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/server/StockPriceServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/StockWatcher.gwt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/StockWatcher.gwt.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/client/StockPriceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/client/StockPriceService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/client/StockPriceServiceAsync.class" beforeDir="false" afterPath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/client/StockPriceServiceAsync.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/client/StockWatcher$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/client/StockWatcher$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/client/StockWatcher$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/client/StockWatcher$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/client/StockWatcher$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/client/StockWatcher$6.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/client/StockWatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/client/StockWatcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/server/GreetingServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/server/GreetingServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/server/StockPriceServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/server/StockPriceServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/war/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/war/WEB-INF/web.xml" afterDir="false" />
     </list>
@@ -78,7 +77,7 @@
       <workItem from="1570531365162" duration="6582000" />
       <workItem from="1570609191323" duration="15803000" />
       <workItem from="1570698948425" duration="3551000" />
-      <workItem from="1570703525048" duration="6323000" />
+      <workItem from="1570703525048" duration="8651000" />
     </task>
     <servers />
   </component>
