@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+
 <web-app>
 
   <!-- Default page to serve -->
@@ -14,7 +16,7 @@
 
   <servlet-mapping>
     <servlet-name>stockPriceServiceImpl</servlet-name>
-    <url-pattern>/stockwatcher/stockPrice</url-pattern>
+    <url-pattern>/stockwatcher/stockPrices</url-pattern>
   </servlet-mapping>
 
 </web-app>

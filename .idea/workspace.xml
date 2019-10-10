@@ -2,83 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1fde906-1f4d-4962-b3ea-1c9b7231e0ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/141ea007d939caf20ed50587cc2f3702e1de7f0b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6ba1a807881e3efdc4b92665fe8f8e5544f6c3c1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f88d3b907b3ee2c76e520b35ac884e6f33bc5ac" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/d/8d5e514876aff9c2f9f28f2414a374d1f6ddaa25" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/95e343ac66a3d1b408afaed24d03bf35ad566231" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9f682a07842b98a42630330e42698237dc8e3116" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/b/ab30b2b5a925172b05d259925ceae508eb6ed1cd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b1da73a32a56989d270c784dcf39124671254db2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d5ff953653de60f546e8ddd9311bbbe32d4f7b3c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/e/de0a46ea40181b2ae6b6ab088817c443c0460717" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e0468f88946bafd264bf54eac91ba7ff07e6b68a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB5035759" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB5088415" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB50A08D6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB50FEE7A" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB5131917" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB515DBA1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB51741DD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB52B01DC" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB53BF198" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB53EA7DF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB54067BD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB54276DC" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/war/stockwatcher/253F7764105EA3294F59D608919D6046.gwt.rpc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB556DE0F" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB556EEAD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB5707474" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB5753BAD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB58AA47A" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB59AEA3F" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB59AF422" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB5B7C275" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/server/JsonStockData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DAFF460F2" beforeDir="false" afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB4F3705A" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DAFF51E9B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DAFF53C6C" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0e8b20ed4b1d8754f9c9eb6ce242ff32ea45c93a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB0129C12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB012AAAD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB013239B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB0195BF1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB0229DFD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB022A29F" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB02E9789" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB02E9C04" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB04A5797" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB04B3D9A" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB04B41E2" beforeDir="false" afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB5376709" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB04C622E" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB0511208" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB051D1A1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB051D89D" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB052F770" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB053448D" beforeDir="false" afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB50351A9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB0534836" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB0565086" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB0568CEF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB056C256" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB05800F4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB0583E2A" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB058B5B4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB05A2879" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB05AA4C7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB05C4A5E" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB06304DD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB0C1B88B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB0C1BBED" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB0C5B448" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB0D3AF24" beforeDir="false" afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB4FD754D" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB0D6EC9C" beforeDir="false" afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB540741B" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB0E03911" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB0E2A996" beforeDir="false" afterPath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB5207D8E" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gwt-unitCache/gwt-unitCache-72cb1b634ef8ae81083ee3d69c942d236fe6aafe-FF35F588CF7564DE259004F02565B00E-0000016DB0E50891" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d/1db13184b70e355eb83dcb90c5c8c739fd709d9b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/client/StockPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/client/StockPrices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/client/StockPriceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/client/StockPriceService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/client/StockPriceServiceAsync.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/client/StockPriceServiceAsync.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/client/StockPrices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/client/StockPrice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/client/StockWatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/client/StockWatcher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/server/StockPriceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/google/gwt/sample/stockwatcher/server/StockPriceServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/client/StockPrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/client/StockPrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/StockWatcher.gwt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/StockWatcher.gwt.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/client/StockPriceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/client/StockPriceService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/client/StockWatcher$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/client/StockWatcher$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/client/StockWatcher$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/client/StockWatcher$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/client/StockWatcher$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/client/StockWatcher$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/client/StockPriceServiceAsync.class" beforeDir="false" afterPath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/client/StockPriceServiceAsync.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/client/StockWatcher$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/client/StockWatcher$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/client/StockWatcher$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/client/StockWatcher$5.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/client/StockWatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/client/StockWatcher.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/server/StockPriceServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/war/WEB-INF/classes/com/google/gwt/sample/stockwatcher/server/StockPriceServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/war/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/war/WEB-INF/web.xml" afterDir="false" />
@@ -136,7 +78,7 @@
       <workItem from="1570531365162" duration="6582000" />
       <workItem from="1570609191323" duration="15803000" />
       <workItem from="1570698948425" duration="3551000" />
-      <workItem from="1570703525048" duration="1179000" />
+      <workItem from="1570703525048" duration="6323000" />
     </task>
     <servers />
   </component>

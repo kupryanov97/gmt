@@ -107,7 +107,7 @@ public class StockWatcher implements EntryPoint {
     if (stockPriceSvc == null) {
       stockPriceSvc = GWT.create(StockPriceService.class);
     }
-    AsyncCallback<StockPrices[]> callback = new AsyncCallback<StockPrices[]>() {
+    AsyncCallback<StockPrice[]> callback = new AsyncCallback<StockPrice[]>() {
       public void onFailure(Throwable caught) {
         // If the stock code is in the list of delisted codes, display an error message.
         String details = caught.getMessage();
@@ -119,7 +119,7 @@ public class StockWatcher implements EntryPoint {
         errorMsgLabel.setVisible(true);
       }
 
-      public void onSuccess(StockPrices[] result) {
+      public void onSuccess(StockPrice[] result) {
         updateTable(result);
       }
     };
@@ -128,7 +128,7 @@ public class StockWatcher implements EntryPoint {
     //stockPriceSvc.getPrices(stocks.toArray(new String[0]), callback);
   }
   //обновляем данные
-  private void updateTable(StockPrices[] prices) {
+  private void updateTable(StockPrice[] prices) {
     for (int i=0; i < prices.length; i++) {
       updateTable(prices[i]);
     }
@@ -140,7 +140,7 @@ public class StockWatcher implements EntryPoint {
     // Clear any errors.
     errorMsgLabel.setVisible(false);
   }
-  private void updateTable(StockPrices price) {
+  private void updateTable(StockPrice price) {
     // Make sure the stock is still in the stock table.
     if (!stocks.contains(price.getSymbol())) {
       return;
